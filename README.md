@@ -33,15 +33,16 @@ Java, scripts and testing examples. A box full of learning.
 
 Some basic examples below for quick reference.
 
-Concept	Example
-Print Output - 	println "Hello, Groovy!"
-Variables - 	def name = "John"
-If-Else - 	if (x > 10) { println "Big" } else { println "Small" }
-Loop (For) - 	for (i in 1..5) { println i }
-Loop (While) - 	while (x < 5) { x++ }
-Random Number - 	(Math.random() * 100).toInteger()
-List (Array) - 	def items = ["A", "B", "C"]
-Map (Dict) - 	def p = [name: "Alice", age: 30]
-Function - 	def add(a, b) { return a + b }
-JSON Parsing - 	new JsonSlurper().parseText(json)
-Sleep (Delay) - 	sleep(2000)
+| **Concept**       | **Example**                                   |
+|--------------------|-----------------------------------------------|
+| Print Output       | `println "Hello, Groovy!"`                   |
+| Variables          | `def name = "John"`                          |
+| If-Else            | `if (x > 10) { println "Big" } else { println "Small" }` |
+| Loop (For)         | `for (i in 1..5) { println i }`              |
+| Loop (While)       | `while (x < 5) { x++ }`                      |
+| Random Number      | `(Math.random() * 100).toInteger()`          |
+| List (Array)       | `def items = ["A", "B", "C"]`                |
+| Map (Dict)         | `def p = [name: "Alice", age: 30]`           |
+| Function           | `def add(a, b) { return a + b }`            |
+| JSON Parsing       | `new JsonSlurper().parseText(json)`          |
+| Sleep (Delay)      | `sleep(2000)`                                |
